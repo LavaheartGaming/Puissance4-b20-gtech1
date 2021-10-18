@@ -14,7 +14,7 @@ int num_rows=12;
 int num_coll=12;
 void instructions();                             //affiche les instructions
 void printboard();                             //affiche le tableau
-void printnumber();                             //check la viabilité du chiffre entré et le retourne
+void printnumber();                             //check la viabilitÃ© du chiffre entrÃ© et le retourne
 int main(){
     start();
     score_o=0;
@@ -34,15 +34,15 @@ int start(){
     switch(choose){                                                         //choix possibles pour l'utilisateur
         case 1: printnumber();break;
         case 2: instructions();break;
-        default: printf("erreur 404 cerveau non trouvé");                   //retour en cas de =! 1 ou 2
+        default: printf("erreur 404 cerveau non trouvÃ©");                   //retour en cas de =! 1 ou 2
     }
 }
 void instructions(){
     system("cls");
-    system("COLOR EC");                                                     //nouvel écran
+    system("COLOR EC");                                                     //nouvel Ã©cran
     printf("          ****     comment jouer     ****          \n\n");                                                      //design des instructions
-    printf("le but est d'alligner 4 pions de la même équipe diagonalement, horizontalement ou verticalement \n");           //instructions
-    printf("le joueur qui alligne 4 pions le plus de fois a gagné \n");
+    printf("le but est d'alligner 4 pions de la mÃªme Ã©quipe diagonalement, horizontalement ou verticalement \n");           //instructions
+    printf("le joueur qui alligne 4 pions le plus de fois a gagnÃ© \n");
     printf("Bonne chance et amusez vous bien !\n\n");
     printf("appuie sur 1 pour revenir au menu \n");
     int back=1;
