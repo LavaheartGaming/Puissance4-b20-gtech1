@@ -15,7 +15,7 @@ int impt=0;
 void start();
 void instructions();                             //affiche les instructions
 void printboard();                             //affiche le tableau
-void printnumber();                             //check la viabilité du chiffre entré et le retourne
+void printnumber();                             //check la viabilitÃ© du chiffre entrÃ© et le retourne
 void InstrImptTest();
 void StartSwitch();
 void empty_stdin ();
@@ -46,7 +46,7 @@ void StartSwitch(){
 }
 void instructions(){
     system("cls");
-    system("COLOR EC");                                                     //nouvel écran
+    system("COLOR EC");                                                     //nouvel Ã©cran
     printf("          ****     comment jouer     ****          \n\n");                                                      //design des instructions
     printf("le but est d'alligner 4 pions de la meme equipe diagonalement, horizontalement ou verticalement \n");           //instructions
     printf("le joueur qui alligne 4 pions le plus de fois a gagne \n");
