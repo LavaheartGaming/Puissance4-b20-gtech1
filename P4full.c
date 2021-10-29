@@ -27,10 +27,15 @@ void BoardVarRow ();
 void CasualGame();
 void BoardInit();
 void findposition();
+void CustomGame();
 int main(){
     score_o=0;
     score_x=0;
     start();
+}
+void CustomGame(){
+    BoardVarCol();
+    printnumber();
 }
 void start(){
     system("COLOR 1C");
@@ -124,9 +129,6 @@ void printnumber(){                                                         //in
     printf("entrez le nom du joueur 2: ");
     scanf("%s",&name2);
     system("cls");
-    if (impt=1){
-        BoardVarCol();
-    }
     BoardInit();
     printboard();
     findposition();
