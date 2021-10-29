@@ -18,7 +18,7 @@ int impt=0;
 void start();
 void instructions();                             //affiche les instructions
 void printboard();                             //affiche le tableau
-void printnumber();                             //check la viabilité du chiffre entré et le retourne
+void printnumber();                             //check la viabilitÃ© du chiffre entrÃ© et le retourne
 void InstrImptTest();
 void StartSwitch();
 void empty_stdin ();
@@ -79,7 +79,7 @@ void CasualGame(){
 }
 void instructions(){
     system("cls");
-    system("COLOR EC");                                                     //nouvel écran
+    system("COLOR EC");                                                     //nouvel Ã©cran
     printf("          ****     comment jouer     ****          \n\n");                                                      //design des instructions
     printf("dans partie personalisee tu peux choisir la taille du tableau desire \n");
     printf("si tu choisis une partie casu alors vous jouerez dans un tableau de 6 par 7\n");
@@ -124,7 +124,7 @@ void printnumber(){                                                         //in
     printf("entrez le nom du joueur 2: ");
     scanf("%s",&name2);
     system("cls");
-    if (impt=!3){
+    if (impt=1){
         BoardVarCol();
     }
     BoardInit();
